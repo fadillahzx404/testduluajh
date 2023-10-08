@@ -1,0 +1,20 @@
+REQUIREMENTS:
+- Install xampp (download di https://www.apachefriends.org/xampp-files/5.6.37/xampp-win32-5.6.37-0-VC11-installer.exe)
+- Buka aplikasi xampp, hidupkan Apache dan MySQL
+- Buat folder ahp-saw di c:\xampp\htdocs
+- copy semua isi dari folder ini ke dalam folder ahp-saw
+
+IMPORT DATABASE:
+- buka browser, ketikkan http://localhost/phpmyadmin
+- Pilih import (tidak usah buat database baru)
+- Pilih file ahp_saw.sql yang ada di folder database
+- Klik go untuk mulai import database
+
+RUNNING PROGRAM
+- Ketikkan http://localhost/ahp-saw di browser
+- Jika ada dialog login masukkan user dan pass : admin
+
+LAIN-LAIN
+- ERD (Entity Relationship Diagram) ada di folder database
+- Perhitungan dalam bentuk excel ada di folder database
+
